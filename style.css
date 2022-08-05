@@ -34,6 +34,10 @@ li {
     flex: 1;
 }
 
+.container {
+    padding: 50px 0;
+}
+
 .row {
     width: 100%;
     max-width: 800px;
@@ -41,6 +45,15 @@ li {
 }
 
 .text--yellow {
+    color: #ffae42;
+}
+
+section:nth-child(even) {
+    background-color: #242424;
+}
+
+.section__title {
+    margin-bottom: 20px;
     color: #ffae42;
 }
 
@@ -148,4 +161,29 @@ nav {
 
 .about-me__img {
     width: 100%;
+}
+
+/* TEC STACK */
+
+
+.language {
+    width: 25%;
+}
+
+.language__img {
+    width: 100%;
+    max-width: 100px;
+}
+
+.language__img--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 16px;
+}
+
+.language__list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
 }
