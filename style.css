@@ -156,7 +156,7 @@ nav {
     flex: 1;
     display: flex;
     align-items: center;
-    padding-top: 28px;
+    padding: 28px 0px;
 }
 
 .about-me__img {
